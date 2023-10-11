@@ -1,0 +1,4 @@
+ id | name | description | image | price_cents | quantity | created_at | updated_at | category_id 
+----+------+-------------+-------+-------------+----------+------------+------------+-------------
+(0 rows)
+
