@@ -12,7 +12,7 @@ class SessionsController < ApplicationController
     # If user exists and password entered is correct
     if user && user.authenticate(params[:password])
 
-     # Save the user id inside the browser cookie and it will keep the user 
+    # Save the user id inside the browser cookie and it will keep the user 
     # logged in when he navigate around our website.
       session[:user_id] = user.id
         redirect_to '/'
